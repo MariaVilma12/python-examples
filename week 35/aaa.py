@@ -1,6 +1,6 @@
 import json
 import random
-import string  # This is standard and allowed
+import string  
 
 # ------------------- Load JSON data -------------------
 def load_data(filename):
