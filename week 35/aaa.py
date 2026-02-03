@@ -2,7 +2,6 @@ import json
 import random
 import string  # This is standard and allowed
 
-
 # ------------------- Load JSON data -------------------
 def load_data(filename):
     """Load quiz data from JSON file. Exits if file not found or invalid JSON."""
@@ -17,7 +16,6 @@ def load_data(filename):
         exit()
 
     # ------------------- Choose quiz mode -------------------
-
 
 def choose_mode(data):
     """Let user choose a game or all games, and whether to shuffle questions/options."""
@@ -102,7 +100,6 @@ def run_quiz(questions, shuffle_options=False):
             })
 
     return score, wrong_questions
-
 
 # ------------------- Show summary -------------------
 def show_summary(total, score, wrong_questions):
