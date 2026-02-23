@@ -1,2 +1,2 @@
 # python-examples
-python example repository
+python examples
